@@ -1,0 +1,13 @@
+version: "3"
+services:
+  database:
+    image: postgres:13-alpine
+    env_file:
+      - .env
+    ports:
+      - 5438:5432
+    volumes:
+      - mythodology-db-data:/var/lib/postgresql/data/
+      
+volumes:
+  mythodology-db-data:
