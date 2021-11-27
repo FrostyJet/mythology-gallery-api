@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/frostyjet/mythology-gallery-api/models"
+	"github.com/frostyjet/mythology-gallery-api/pkg/models"
 	"github.com/gin-gonic/gin"
 )
 

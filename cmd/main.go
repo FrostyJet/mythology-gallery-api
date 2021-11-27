@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/frostyjet/mythology-gallery-api/models"
+	"github.com/frostyjet/mythology-gallery-api/pkg/models"
 	"github.com/frostyjet/mythology-gallery-api/pkg/routers"
 	"github.com/frostyjet/mythology-gallery-api/pkg/setting"
 )
