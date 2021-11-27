@@ -18,3 +18,5 @@ The first need Go installed (version 1.13+ is required), then you can use the be
    ```sh
    go run cmd/main.go
    ```
+   
+UI can be found here: https://github.com/FrostyJet/mythology-gallery-ui
