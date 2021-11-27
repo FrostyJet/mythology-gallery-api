@@ -27,9 +27,8 @@ func Setup() {
 	db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 
 	db.AutoMigrate(&God{})
-
-	ares := God{Name: "Ares"}
-	db.Create(&ares)
+	db.AutoMigrate(&Ability{})
+	db.AutoMigrate(&Skin{})
 
 	if err != nil {
 		log.Fatalf("models.Setup err: %v", err)
